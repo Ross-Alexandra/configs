@@ -1,0 +1,233 @@
+{
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "cmake.configureOnOpen": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.detectIndentation": false,
+  "git.ignoreWindowsGit27Warning": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.languageServer": "Pylance",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "svg.preview.mode": "svg",
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.startupEditor": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.eol": "\n",
+  "cSpell.userWords": [
+    "appspot",
+    "Fatface",
+    "firebaseapp",
+    "haptics",
+    "Headshot",
+    "ionicons",
+    "linebreak",
+    "Paralax",
+    "Roboto",
+    "Tutela",
+    "uuidv"
+  ],
+  "editor.inlineSuggest.enabled": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "php": false
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "editor.minimap.enabled": false,
+  "python.formatting.provider": "black",
+  "git.openRepositoryInParentFolders": "never",
+  "window.zoomLevel": 2,
+  "files.insertFinalNewline": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.openPositioning": "last",
+  "workbench.editor.highlightModifiedTabs": true,
+  "cSpell.language": "en,lorem",
+  "files.associations": {
+    "*.html.twig": "twig",
+    "*.html": "html"
+},
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "editor.fontFamily": "JetBrains Mono, Monaco, ‘Courier New’, monospace",
+  "editor.fontSize": 13,
+  "editor.fontVariations": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "variable"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }, {
+        "scope": ["keyword.control", "keyword.operator.new"],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      }
+    ]
+  },
+  "playwright.reuseBrowser": true,
+"playwright.showTrace": false,
+"go.toolsManagement.autoUpdate": true,
+"cSpell.ignoreWords": [
+    "eetar"
+],
+"cSpell.enableFiletypes": [
+  "twig"
+],
+"aceJump.finder.pattern": "[ ,-.{_(\"'<\\[\t/]",
+"git.untrackedChanges": "separate",
+"bracketLens.prefix": " ",
+"bracketLens.unmatchBracketsPrefix": " 🚫",
+"bracketLens.maxBracketHeaderLength": 30,
+"bracketLens.minBracketScopeLines": 10,
+"css.lint.important": "error",
+"javascript.preferences.importModuleSpecifier": "non-relative",
+"typescript.preferences.preferTypeOnlyAutoImports": true,
+"path-intellisense.autoTriggerNextSuggestion": true,
+"typescript.preferences.importModuleSpecifier": "non-relative",
+"javascript.preferGoToSourceDefinition": true,
+"typescript.preferGoToSourceDefinition": true,
+"vue.inlayHints.missingProps": true,
+"vue.inlayHints.inlineHandlerLeading": true,
+"vue.inlayHints.optionsWrapper": true,
+"marquee.widgets.npm-stats.packageNames": [
+  "chess.com"
+],
+"terminal.integrated.fontSize": 11,
+"html.format.indentHandlebars": true,
+"html.format.indentInnerHtml": true,
+"html.format.templating": true,
+"bookmarks.keepBookmarksOnLineDelete": true,
+"bookmarks.saveBookmarksInProject": true,
+"bookmarks.showByDefault": true,
+"bookmarks.marker.showByDefault": true,
+"explorer.compactFolders": false,
+"editor.stickyScroll.maxLineCount": 2,
+"workbench.tree.enableStickyScroll": false,
+"clickup-kanban.auth.token": "pk_96035735_L6GFWGJFAG1EF9B48LTW59PLT6N6S12Q",
+"clickup-kanban.auth.teamId": "9014352277",
+"kanpilot.configFilepath": "./.vscode/kanpilot.toml",
+"vscode-open-files-in-directory.maxFiles": 100,
+"vscode-open-files-in-directory.maxRecursiveDepth": 15,
+"liveServer.settings.donotShowInfoMsg": true,
+"go-template.languages": [
+    "html"
+],
+"bracketLens.languageConfiguration": {
+  "ignoreCase": false,
+  "comments": {
+    "block": [
+      {
+        "opening": "/*",
+        "closing": "*/"
+      }
+    ],
+    "line": [
+      "//"
+    ]
+  },
+  "brackets": {
+    "symbol": [
+      {
+        "opening": "(",
+        "closing": ")",
+        "headerMode": "smart",
+        "inters": []
+      },
+      {
+        "opening": "[",
+        "closing": "]",
+        "headerMode": "smart",
+        "inters": []
+      },
+      {
+        "opening": "{",
+        "closing": "}",
+        "headerMode": "smart",
+        "inters": []
+      }
+    ],
+    "word": []
+  },
+  "strings": {
+    "inline": [
+      {
+        "opening": "\"",
+        "closing": "\"",
+        "escape": [
+          "\\\\",
+          "\\\""
+        ]
+      },
+      {
+        "opening": "'",
+        "closing": "'",
+        "escape": [
+          "\\\\",
+          "\\'"
+        ]
+      }
+    ],
+    "multiline": [
+      {
+        "opening": "`",
+        "closing": "`",
+        "escape": [
+          "\\\\",
+          "\\`"
+        ]
+      }
+    ]
+  },
+  "terminators": [
+    ";",
+    ",",
+  ],
+  "ignoreSymbols": [
+    "\\//"
+  ]
+},
+"bracketLens.line": "start-line-number",
+"center-editor-window.offset": 0,
+"github.copilot.editor.enableAutoCompletions": true,
+"workbench.panel.defaultLocation": "right",
+"[vue]": {
+  "editor.defaultFormatter": "Vue.volar"
+},
+"typescript.tsserver.log": "off",
+"terminal.integrated.tabs.enabled": false,
+"editor.cursorSurroundingLines": 15,
+"editor.autoIndent": "brackets",
+}
