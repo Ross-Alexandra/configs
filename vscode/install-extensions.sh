@@ -1,9 +1,10 @@
+# Generate with: code --list-extensions | xargs -L 1 echo code --install-extension
 code --install-extension adrianwilczynski.alpine-js-intellisense
-code --install-extension bajdzis.vscode-twig-pack
 code --install-extension biomejs.biome
 code --install-extension cardinal90.multi-cursor-case-preserve
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension devonray.snippet
 code --install-extension donjayamanne.python-environment-manager
 code --install-extension donjayamanne.python-extension-pack
 code --install-extension eamodio.gitlens
@@ -14,11 +15,13 @@ code --install-extension golang.go
 code --install-extension jhhtaylor.tabstronaut
 code --install-extension jinliming2.vscode-go-template
 code --install-extension jock.svg
-code --install-extension kaiwood.center-editor-window
 code --install-extension kevinrose.vsc-python-indent
 code --install-extension ko-dev.vscode-open-files-in-directory
 code --install-extension lucax88x.codeacejumper
 code --install-extension mblode.twig-language-2
+code --install-extension metaseed.metago
+code --install-extension metaseed.metajump
+code --install-extension metaseed.metaword
 code --install-extension mrmlnc.vscode-duplicate
 code --install-extension ms-playwright.playwright
 code --install-extension ms-python.black-formatter
@@ -36,4 +39,3 @@ code --install-extension usernamehw.errorlens
 code --install-extension vue.volar
 code --install-extension waderyan.gitblame
 code --install-extension wix.vscode-import-cost
-code --install-extension xdebug.php-debug
