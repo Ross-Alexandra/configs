@@ -458,5 +458,9 @@
         "key": "shift+alt+win+end",
         "command": "-metaGo.cursorSpaceWordSpaceRightSelect",
         "when": "editorTextFocus"
+    },
+        {
+        "key": "ctrl+shift+alt+f",
+        "command": "workbench.action.quickTextSearch"
     }
 ]
