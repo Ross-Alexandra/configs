@@ -413,7 +413,7 @@
     {
         "key": "alt+l",
         "command": "metaGo.selectLineUp",
-        "when": "editorHasSelection && textInputFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "ctrl+o",
@@ -459,8 +459,18 @@
         "command": "-metaGo.cursorSpaceWordSpaceRightSelect",
         "when": "editorTextFocus"
     },
-        {
+    {
         "key": "ctrl+shift+alt+f",
         "command": "workbench.action.quickTextSearch"
+    },
+    {
+        "key": "alt+l",
+        "command": "-toggleFindInSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "-toggleSearchEditorContextLines",
+        "when": "inSearchEditor"
     }
 ]
