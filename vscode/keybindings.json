@@ -472,5 +472,22 @@
         "key": "alt+l",
         "command": "-toggleSearchEditorContextLines",
         "when": "inSearchEditor"
+    },
+    {
+        "key": "alt+,",
+        "command": "metaGo.gotoSmart"
+    },
+    {
+        "key": "alt+,",
+        "command": "-metaGo.gotoBefore"
+    },
+    {
+        "key": "shift+alt+,",
+        "command": "metaGo.selectSmart"
+    },
+    {
+        "key": "shift+alt+,",
+        "command": "-metaGo.selectBefore",
+        "when": "editorTextFocus"
     }
 ]
