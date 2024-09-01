@@ -267,7 +267,7 @@
       "when": "editorTextFocus && !editorReadonly"
     },
     {
-      "key": "ctrl+shift+enter",
+      "key": "ctrl+enter",
       "command": "editor.action.insertLineAfter",
       "when": "editorTextFocus && !editorReadonly"
     },
