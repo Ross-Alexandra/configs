@@ -489,5 +489,23 @@
         "key": "shift+alt+,",
         "command": "-metaGo.selectBefore",
         "when": "editorTextFocus"
-    }
+    },
+    {
+      "key": "alt+home",
+      "command": "-metaGo.gotoEmptyLineUp",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "alt+end",
+      "command": "-metaGo.gotoEmptyLineDown",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "alt+home",
+      "command": "metaGo.addCursorSmart"
+    },
+    {
+      "key": "alt+end",
+      "command": "metaGo.addCursorBefore"
+    },
 ]
