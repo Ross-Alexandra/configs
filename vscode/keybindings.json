@@ -180,11 +180,6 @@
       "command": "-workbench.action.quickOpenView"
     },
     {
-      "key": "ctrl+q",
-      "command": "editor.action.setSelectionAnchor",
-      "when": "editorTextFocus"
-    },
-    {
       "key": "ctrl+k ctrl+b",
       "command": "-editor.action.setSelectionAnchor",
       "when": "editorTextFocus"
@@ -230,7 +225,7 @@
       "command": "-workbench.action.previousEditor"
     },
     {
-      "key": "shift+alt+j",
+      "key": "ctrl+q",
       "command": "editor.action.goToMatchFindAction"
     },
     {
@@ -508,4 +503,33 @@
       "key": "alt+end",
       "command": "metaGo.addCursorBefore"
     },
+    {
+      "key": "shift+backspace",
+      "command": "-deleteAllLeft",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+down",
+      "command": "-relative-path-navigation.openNextFileInRelativePath",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+up",
+      "command": "-relative-path-navigation.openPreviousFileInRelativePath",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+shift+alt+e",
+      "command": "relative-path-navigation.showFilesInRelativePath",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+e",
+      "command": "-relative-path-navigation.showFilesInRelativePath",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "alt+j",
+      "command": "workbench.action.showEditorsInActiveGroup"
+    }
 ]

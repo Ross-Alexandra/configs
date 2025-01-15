@@ -3,8 +3,7 @@
   "go.useLanguageServer": true,
   "cmake.configureOnOpen": true,
   "explorer.confirmDragAndDrop": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.detectIndentation": false,
+"javascript.updateImportsOnFileMove.enabled": "always",
   "git.ignoreWindowsGit27Warning": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -29,10 +28,10 @@
     "linebreak",
     "Paralax",
     "Roboto",
+    "targetable",
     "Tutela",
     "uuidv"
   ],
-  "editor.inlineSuggest.enabled": false,
   "[python]": {
     "editor.formatOnType": true
   },
@@ -230,8 +229,6 @@
 "terminal.integrated.tabs.enabled": false,
 "editor.cursorSurroundingLines": 15,
 "editor.autoIndent": "brackets",
-"javascript.experimental.updateImportsOnPaste": true,
-"typescript.experimental.updateImportsOnPaste": true,
 "editor.autoClosingBrackets": "never",
 "editor.autoClosingQuotes": "never",
 "vue.complete.casing.tags": "autoKebab",
@@ -239,6 +236,25 @@
 "html.autoCreateQuotes": false,
 "html.format.wrapLineLength": 0,
 "editor.linkedEditing": true,
-"typescript.tsserver.maxTsServerMemory": 7168,
-"typescript.tsserver.nodePath": "node --max-old-space-size=7168",
+"typescript.tsserver.maxTsServerMemory": 10240,
+"typescript.tsserver.nodePath": "node --max-old-space-size=10240",
+"php-intellisense.trace.server": "messages",
+"php.memoryLimit": "8095M",
+"php.executablePath": "/usr/bin/php",
+"window.newWindowProfile": "Default",
+"window.customTitleBarVisibility": "windowed",
+"workbench.panel.opensMaximized": "always",
+"window.newWindowDimensions": "maximized",
+"workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+"editor.inlineSuggest.enabled": false,
+"editor.suggestSelection": "recentlyUsed",
+"go.inlayHints.parameterNames": true,
+"explorer.confirmPasteNative": false
+// If you don't use that keybind, maybe reactivate these.
+// "typescript.inlayHints.parameterNames.enabled": "none",
+// "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+// "typescript.inlayHints.parameterTypes.enabled": false,
+// "javascript.inlayHints.parameterNames.enabled": "none",
+// "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+// "javascript.inlayHints.parameterTypes.enabled": false,
 }
