@@ -3,7 +3,7 @@
   "go.useLanguageServer": true,
   "cmake.configureOnOpen": true,
   "explorer.confirmDragAndDrop": false,
-"javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "git.ignoreWindowsGit27Warning": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -28,6 +28,7 @@
     "linebreak",
     "Paralax",
     "Roboto",
+    "synergize",
     "targetable",
     "Tutela",
     "uuidv"
@@ -74,7 +75,7 @@
   "files.associations": {
     "*.html.twig": "twig",
     "*.html": "html"
-},
+  },
   "emmet.includeLanguages": {
     "twig": "html"
   },
@@ -84,12 +85,19 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["comment", "variable"],
+        "scope": [
+          "comment",
+          "variable"
+        ],
         "settings": {
           "fontStyle": "italic"
         }
-      }, {
-        "scope": ["keyword.control", "keyword.operator.new"],
+      },
+      {
+        "scope": [
+          "keyword.control",
+          "keyword.operator.new"
+        ],
         "settings": {
           "fontStyle": "underline"
         }
@@ -97,164 +105,168 @@
     ]
   },
   "playwright.reuseBrowser": true,
-"playwright.showTrace": false,
-"go.toolsManagement.autoUpdate": true,
-"cSpell.ignoreWords": [
+  "playwright.showTrace": false,
+  "go.toolsManagement.autoUpdate": true,
+  "cSpell.ignoreWords": [
     "eetar"
-],
-"cSpell.enableFiletypes": [
-  "twig"
-],
-"aceJump.finder.pattern": "[ ,-.{_(\"'<\\[\t/]",
-"git.untrackedChanges": "separate",
-"bracketLens.prefix": " ",
-"bracketLens.unmatchBracketsPrefix": " 🚫",
-"bracketLens.maxBracketHeaderLength": 30,
-"bracketLens.minBracketScopeLines": 10,
-"css.lint.important": "error",
-"javascript.preferences.importModuleSpecifier": "non-relative",
-"typescript.preferences.preferTypeOnlyAutoImports": true,
-"path-intellisense.autoTriggerNextSuggestion": true,
-"typescript.preferences.importModuleSpecifier": "non-relative",
-"javascript.preferGoToSourceDefinition": true,
-"typescript.preferGoToSourceDefinition": true,
-"vue.inlayHints.missingProps": true,
-"vue.inlayHints.inlineHandlerLeading": true,
-"vue.inlayHints.optionsWrapper": true,
-"marquee.widgets.npm-stats.packageNames": [
-  "chess.com"
-],
-"terminal.integrated.fontSize": 11,
-"html.format.indentHandlebars": true,
-"html.format.indentInnerHtml": true,
-"html.format.templating": true,
-"bookmarks.keepBookmarksOnLineDelete": true,
-"bookmarks.saveBookmarksInProject": true,
-"bookmarks.showByDefault": true,
-"bookmarks.marker.showByDefault": true,
-"explorer.compactFolders": false,
-"editor.stickyScroll.maxLineCount": 2,
-"workbench.tree.enableStickyScroll": false,
-"clickup-kanban.auth.token": "pk_96035735_L6GFWGJFAG1EF9B48LTW59PLT6N6S12Q",
-"clickup-kanban.auth.teamId": "9014352277",
-"kanpilot.configFilepath": "./.vscode/kanpilot.toml",
-"vscode-open-files-in-directory.maxFiles": 100,
-"vscode-open-files-in-directory.maxRecursiveDepth": 15,
-"liveServer.settings.donotShowInfoMsg": true,
-"go-template.languages": [
-    "html"
-],
-"bracketLens.languageConfiguration": {
-  "ignoreCase": false,
-  "comments": {
-    "block": [
-      {
-        "opening": "/*",
-        "closing": "*/"
-      }
-    ],
-    "line": [
-      "//"
-    ]
-  },
-  "brackets": {
-    "symbol": [
-      {
-        "opening": "(",
-        "closing": ")",
-        "headerMode": "smart",
-        "inters": []
-      },
-      {
-        "opening": "[",
-        "closing": "]",
-        "headerMode": "smart",
-        "inters": []
-      },
-      {
-        "opening": "{",
-        "closing": "}",
-        "headerMode": "smart",
-        "inters": []
-      }
-    ],
-    "word": []
-  },
-  "strings": {
-    "inline": [
-      {
-        "opening": "\"",
-        "closing": "\"",
-        "escape": [
-          "\\\\",
-          "\\\""
-        ]
-      },
-      {
-        "opening": "'",
-        "closing": "'",
-        "escape": [
-          "\\\\",
-          "\\'"
-        ]
-      }
-    ],
-    "multiline": [
-      {
-        "opening": "`",
-        "closing": "`",
-        "escape": [
-          "\\\\",
-          "\\`"
-        ]
-      }
-    ]
-  },
-  "terminators": [
-    ";",
-    ",",
   ],
-  "ignoreSymbols": [
-    "\\//"
-  ]
-},
-"bracketLens.line": "start-line-number",
-"center-editor-window.offset": 0,
-"github.copilot.editor.enableAutoCompletions": true,
-"workbench.panel.defaultLocation": "right",
-"[vue]": {
-  "editor.defaultFormatter": "Vue.volar"
-},
-"typescript.tsserver.log": "off",
-"terminal.integrated.tabs.enabled": false,
-"editor.cursorSurroundingLines": 15,
-"editor.autoIndent": "brackets",
-"editor.autoClosingBrackets": "never",
-"editor.autoClosingQuotes": "never",
-"vue.complete.casing.tags": "autoKebab",
-"html.autoClosingTags": false,
-"html.autoCreateQuotes": false,
-"html.format.wrapLineLength": 0,
-"editor.linkedEditing": true,
-"typescript.tsserver.maxTsServerMemory": 10240,
-"typescript.tsserver.nodePath": "node --max-old-space-size=10240",
-"php-intellisense.trace.server": "messages",
-"php.memoryLimit": "8095M",
-"php.executablePath": "/usr/bin/php",
-"window.newWindowProfile": "Default",
-"window.customTitleBarVisibility": "windowed",
-"workbench.panel.opensMaximized": "always",
-"window.newWindowDimensions": "maximized",
-"workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
-"editor.inlineSuggest.enabled": false,
-"editor.suggestSelection": "recentlyUsed",
-"go.inlayHints.parameterNames": true,
-"explorer.confirmPasteNative": false
-// If you don't use that keybind, maybe reactivate these.
-// "typescript.inlayHints.parameterNames.enabled": "none",
-// "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
-// "typescript.inlayHints.parameterTypes.enabled": false,
-// "javascript.inlayHints.parameterNames.enabled": "none",
-// "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
-// "javascript.inlayHints.parameterTypes.enabled": false,
+  "cSpell.enableFiletypes": [
+    "twig"
+  ],
+  "aceJump.finder.pattern": "[ ,-.{_(\"'<\\[\t/]",
+  "git.untrackedChanges": "separate",
+  "bracketLens.prefix": " ",
+  "bracketLens.unmatchBracketsPrefix": " 🚫",
+  "bracketLens.maxBracketHeaderLength": 30,
+  "bracketLens.minBracketScopeLines": 10,
+  "css.lint.important": "error",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferGoToSourceDefinition": true,
+  "typescript.preferGoToSourceDefinition": true,
+  "vue.inlayHints.missingProps": true,
+  "vue.inlayHints.inlineHandlerLeading": true,
+  "vue.inlayHints.optionsWrapper": true,
+  "marquee.widgets.npm-stats.packageNames": [
+    "chess.com"
+  ],
+  "terminal.integrated.fontSize": 11,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.templating": true,
+  "bookmarks.keepBookmarksOnLineDelete": true,
+  "bookmarks.saveBookmarksInProject": true,
+  "bookmarks.showByDefault": true,
+  "bookmarks.marker.showByDefault": true,
+  "explorer.compactFolders": false,
+  "editor.stickyScroll.maxLineCount": 2,
+  "workbench.tree.enableStickyScroll": false,
+  "clickup-kanban.auth.token": "pk_96035735_L6GFWGJFAG1EF9B48LTW59PLT6N6S12Q",
+  "clickup-kanban.auth.teamId": "9014352277",
+  "kanpilot.configFilepath": "./.vscode/kanpilot.toml",
+  "vscode-open-files-in-directory.maxFiles": 100,
+  "vscode-open-files-in-directory.maxRecursiveDepth": 15,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "go-template.languages": [
+    "html"
+  ],
+  "bracketLens.languageConfiguration": {
+    "ignoreCase": false,
+    "comments": {
+      "block": [
+        {
+          "opening": "/*",
+          "closing": "*/"
+        }
+      ],
+      "line": [
+        "//"
+      ]
+    },
+    "brackets": {
+      "symbol": [
+        {
+          "opening": "(",
+          "closing": ")",
+          "headerMode": "smart",
+          "inters": []
+        },
+        {
+          "opening": "[",
+          "closing": "]",
+          "headerMode": "smart",
+          "inters": []
+        },
+        {
+          "opening": "{",
+          "closing": "}",
+          "headerMode": "smart",
+          "inters": []
+        }
+      ],
+      "word": []
+    },
+    "strings": {
+      "inline": [
+        {
+          "opening": "\"",
+          "closing": "\"",
+          "escape": [
+            "\\\\",
+            "\\\""
+          ]
+        },
+        {
+          "opening": "'",
+          "closing": "'",
+          "escape": [
+            "\\\\",
+            "\\'"
+          ]
+        }
+      ],
+      "multiline": [
+        {
+          "opening": "`",
+          "closing": "`",
+          "escape": [
+            "\\\\",
+            "\\`"
+          ]
+        }
+      ]
+    },
+    "terminators": [
+      ";",
+      ",",
+    ],
+    "ignoreSymbols": [
+      "\\//"
+    ]
+  },
+  "bracketLens.line": "start-line-number",
+  "center-editor-window.offset": 0,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.panel.defaultLocation": "right",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "typescript.tsserver.log": "off",
+  "terminal.integrated.tabs.enabled": false,
+  "editor.cursorSurroundingLines": 15,
+  "editor.autoIndent": "brackets",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "vue.complete.casing.tags": "kebab",
+  "html.autoClosingTags": false,
+  "html.autoCreateQuotes": false,
+  "html.format.wrapLineLength": 0,
+  "editor.linkedEditing": true,
+  "typescript.tsserver.maxTsServerMemory": 15360,
+  "typescript.tsserver.nodePath": "node --max-old-space-size=10240",
+  "php-intellisense.trace.server": "messages",
+  "php.memoryLimit": "8095M",
+  "php.executablePath": "/usr/bin/php",
+  "window.newWindowProfile": "Default",
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.panel.opensMaximized": "always",
+  "window.newWindowDimensions": "maximized",
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+  "editor.inlineSuggest.enabled": false,
+  "explorer.confirmPasteNative": false,
+  // If you don't use that keybind, maybe reactivate these.
+  "go.inlayHints.parameterNames": false,
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.quickSuggestionsDelay": 45,
+  // "typescript.inlayHints.parameterNames.enabled": "none",
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  // "typescript.inlayHints.parameterTypes.enabled": false,
+  // "javascript.inlayHints.parameterNames.enabled": "none",
+  // "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  // "javascript.inlayHints.parameterTypes.enabled": false,
 }

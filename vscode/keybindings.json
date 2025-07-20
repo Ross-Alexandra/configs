@@ -531,5 +531,15 @@
     {
       "key": "alt+j",
       "command": "workbench.action.showEditorsInActiveGroup"
+    },
+    {
+      "key": "ctrl+enter",
+      "command": "editor.action.replaceAll",
+      "when": "editorFocus && findWidgetVisible"
+    },
+    {
+      "key": "ctrl+alt+enter",
+      "command": "-editor.action.replaceAll",
+      "when": "editorFocus && findWidgetVisible"
     }
 ]
