@@ -1,3 +1,4 @@
+# Generate with: code --list-extensions | xargs -L 1 echo code --install-extension
 code --install-extension adrianwilczynski.alpine-js-intellisense
 code --install-extension biomejs.biome
 code --install-extension cardinal90.multi-cursor-case-preserve
