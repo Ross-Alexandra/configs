@@ -10,3 +10,6 @@
 
 #### Layer 4 - F-keys
 ![alt text](screenshots/layer-4.png)
+
+#### Layer 5 - Gaming shortcuts
+![alt text](screenshots/layer-5.png)
