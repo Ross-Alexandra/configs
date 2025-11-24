@@ -1,4 +1,6 @@
 ### Layout
+[link to layout](https://configure.zsa.io/moonlander/layouts/pXdlv/latest/2).
+
 #### Layer 1 - Primary typing
 ![alt text](screenshots/layer-1.png)
 
