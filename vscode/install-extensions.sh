@@ -56,3 +56,4 @@ code --install-extension wenfangdu.snippet-generator
 code --install-extension wix.vscode-import-cost
 code --install-extension zobo.php-intellisense
 code --install-extension zxh404.vscode-proto3
+code --install-extension ./custom-extensions/focus-by-index-0.0.2.vsix

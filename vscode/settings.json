@@ -44,13 +44,6 @@
       "scope": "user"
     }
   },
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false,
-    "php": false
-  },
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.inlineSuggest.showToolbar": "always",
@@ -263,10 +256,27 @@
     "strings": "on"
   },
   "editor.quickSuggestionsDelay": 45,
-  // "typescript.inlayHints.parameterNames.enabled": "none",
-  // "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
-  // "typescript.inlayHints.parameterTypes.enabled": false,
-  // "javascript.inlayHints.parameterNames.enabled": "none",
-  // "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
-  // "javascript.inlayHints.parameterTypes.enabled": false,
+  "biome.enabled": false,
+  "vue.suggest.componentNameCasing": "preferKebabCase",
+  "workbench.editor.showTabIndex": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
+  "workbench.enableExperiments": false,
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "dotenv": false,
+    "ini": false,
+    "json": false,
+    "yaml": false
+  },
+  "github.copilot.advanced": {
+    "webSearch": false
+  },
+  "chat.mcp.autostart": "never"
 }
