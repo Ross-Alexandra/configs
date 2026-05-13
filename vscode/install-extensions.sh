@@ -41,8 +41,6 @@ code --install-extension spryinno.kanpilot
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension uctakeoff.vscode-counter
 code --install-extension usernamehw.errorlens
-code --install-extension visualstudioexptteam.intellicode-api-usage-examples
-code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension vscjava.vscode-gradle
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
@@ -55,5 +53,4 @@ code --install-extension waderyan.gitblame
 code --install-extension wenfangdu.snippet-generator
 code --install-extension wix.vscode-import-cost
 code --install-extension zobo.php-intellisense
-code --install-extension zxh404.vscode-proto3
 code --install-extension ./custom-extensions/focus-by-index.vsix
