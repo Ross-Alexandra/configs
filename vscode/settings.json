@@ -119,9 +119,6 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "javascript.preferGoToSourceDefinition": true,
   "typescript.preferGoToSourceDefinition": true,
-  "vue.inlayHints.missingProps": true,
-  "vue.inlayHints.inlineHandlerLeading": true,
-  "vue.inlayHints.optionsWrapper": true,
   "marquee.widgets.npm-stats.packageNames": [
     "chess.com"
   ],
@@ -249,8 +246,6 @@
   "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
   "editor.inlineSuggest.enabled": false,
   "explorer.confirmPasteNative": false,
-  // If you don't use that keybind, maybe reactivate these.
-  "go.inlayHints.parameterNames": false,
   "workbench.colorTheme": "Ayu Dark Bordered",
   "editor.quickSuggestions": {
     "strings": "on"
@@ -334,5 +329,14 @@
 
   // Ensures that checking happens automatically every time you save a file
   "rust-analyzer.checkOnSave": true,
-  "editor.inlayHints.enabled": "offUnlessPressed"
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "go.inlayHints.parameterNames": true,
+  "vue.inlayHints.missingProps": true,
+  "vue.inlayHints.inlineHandlerLeading": true,
+  "vue.inlayHints.optionsWrapper": true,
+  "js/ts.inlayHints.parameterNames.enabled": "all",
+  "js/ts.inlayHints.parameterTypes.enabled": true,
+  "js/ts.inlayHints.variableTypes.enabled": true,
+  "js/ts.inlayHints.functionLikeReturnTypes.enabled": true,
+  "js/ts.inlayHints.propertyDeclarationTypes.enabled": true
 }
