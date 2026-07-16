@@ -278,5 +278,61 @@
   "github.copilot.advanced": {
     "webSearch": false
   },
-  "chat.mcp.autostart": "never"
+  "chat.mcp.autostart": "never",
+   "claudeCode.preferredLocation": "sidebar",
+  "chatgpt.followUpQueueMode": "steer",
+  "chatgpt.runCodexInWindowsSubsystemForLinux": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, env.d.ts, typed-router.d.ts",
+    "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .oxlint*, oxlint*, .oxfmt*, .prettier*, prettier*, .editorconfig"
+  },
+  "typescript.experimental.useTsgo": true,
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://biomejs.dev": true
+  },
+  "chat.disableAIFeatures": true,
+  "workbench.colorCustomizations": {
+    "list.infoForeground": "#cd23ab", // Change Info level text color
+    "editorInfo.foreground": "#cd23ab", // Change Info level text color
+    "problems.infoIconForeground": "#cd23ab", // Changes the 'i' icon color
+    "errorLens.infoForeground": "#cd23ab",
+    "errorLens.infoBackground": "#cd23ab15" // Optional: Adds a subtle 8% opacity pink background tint
+  },
+  "tabColorHierarchy.mode": "background",
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/node_modules/**": true,
+    "**/.npm/**": true,
+    "**/.cache/**": true
+  },
+      // --- Rust Language Specific Settings ---
+    "[rust]": {
+        // Sets rust-analyzer as the default code formatter
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        // Automatically triggers code formatting when you save a file
+        "editor.formatOnSave": true
+    },
+
+    // --- Rust-Analyzer Linting Configuration ---
+    // Swaps the default 'cargo check' with the much stricter 'cargo clippy' linter
+    "rust-analyzer.check.overrideCommand": [
+        "cargo",
+        "clippy",
+        "--workspace",
+        "--message-format=json",
+        "--all-targets"
+    ],
+
+  // Ensures that checking happens automatically every time you save a file
+  "rust-analyzer.checkOnSave": true,
+  "editor.inlayHints.enabled": "offUnlessPressed"
 }
